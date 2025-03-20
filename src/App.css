@@ -1,38 +1,103 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 317px;
+  margin: 15% 50px 0 0;
+  border: 3px solid #61d9f8;
+  border-radius: 5px;
+}
+
+.containerValues {
+  width: 290px;
+  height: 100px;
+  margin: 10px;
+  padding: 15px;
+  border: 3px solid #61d9f8;
+  border-radius: 5px;
+}
+
+.containerButton {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 10px;
+  border: 3px solid #61d9f8;
+  border-radius: 5px;
+}
+
+.button {
+  width: 60px;
+  padding: 4px;
+  border: none;
+  border-radius: 5px;
+  background-color: #61d9f8;
+  font: bold 17px normal sans-serif;
+}
+
+
+.max-value {
+  color: #ff2c1e;
+  font: bold 35px normal sans-serif;
+}
+
+.value {
+  color: #61d9f8;
+  font: bold 35px normal sans-serif;
+}
+
+.error-input {
+  width: 100px;
+  padding: 3px;
+  text-align: center;
+  border-radius: 3px;
+  border: 2px solid #e32d2d;
+  background-color: #ff9d9d;
+}
+
+.error-message {
+  color: #ff0000;
+  font: bold 17px normal sans-serif;
+}
+
+.change-message {
+  color: #61d9f8;
+  font: bold 17px normal sans-serif;
+}
+
+.input {
+  width: 100px;
+  padding: 3px;
+  text-align: center;
+  border-radius: 3px;
+  border: 2px solid #61d9f8;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.containerNumber {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  width: 290px;
+  height: 100px;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 3px solid #61d9f8;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.value-title {
+  font-weight: bold;
+  color: #61d9f8;
 }
